@@ -20,3 +20,10 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Call to Action', 'infirmiere' ),
 	'description'   => __( 'This is a call to action widget area that will show on the front page', 'infirmiere' ),
 ) );
+
+// Register widget areas. not workig.
+genesis_register_sidebar( array(
+	'id'          => 'front-page-1',
+	'name'        => __( 'Front Page 1', 'infirmiere' ),
+	'description' => __( 'This is a widget that goes on the front page.', 'infirmiere' ),
+) );

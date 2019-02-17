@@ -78,7 +78,14 @@ function infirmiere_enqueue_styles() {
 
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Roboto:400,400i,700,700i' );
 
-};
+}
+
+// customizing footer creds
+add_filter( 'genesis_footer_creds_text', 'my_credits' );
+function my_credits() {
+	return '[footer_copyright] <a href="https://github.com/janamr">janamr</a>';
+}
+
 
 
 // add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );

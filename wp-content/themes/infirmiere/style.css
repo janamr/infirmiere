@@ -32,7 +32,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	- Skip Links
 - Structure & Layout
 - Site Navigation
-- Footer Widgets
+- Widgets
+	- Front page welcome widget
+	- Footer Widgets
 */
 
 /* # HTML5 Reset
@@ -690,6 +692,13 @@ th {
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a {
 	color: #c3251d;
 	text-decoration: underline;
+}
+
+
+/* Widgets
+------------------------------*/
+.home-welcome .wrap {
+	background-color: rgb(110, 110, 110);
 }
 
 /* # Footer Widgets

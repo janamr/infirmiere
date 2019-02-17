@@ -65,6 +65,15 @@ function infirmiere_add_call_to_action() {
 	);
 }
 
+// Add markup to display front page widgets.
+function display_front_page_1_widget() {
+
+	genesis_widget_area( 'front-page-1', array(
+		'before' => '<div class="featured-widget-area"><div class="wrap">',
+		'after'  => '</div></div>',
+	) );
+
+}
 
  genesis();
 
