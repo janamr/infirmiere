@@ -86,6 +86,13 @@ function my_credits() {
 	return '[footer_copyright] <a href="https://github.com/janamr">janamr</a>';
 }
 
+// genesis_register_sidebar( array(
+// 	'id'					=> 'my-widget',
+// 	'name'				=> __( 'My Widget', 'infirmiere' ),
+// 	'description'	=> __( 'This is my widget?', 'infirmiere' ),
+// ));
+
+
 
 
 // add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );

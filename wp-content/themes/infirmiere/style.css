@@ -698,9 +698,14 @@ th {
 /* Widgets
 ------------------------------*/
 .home-welcome .wrap {
-	background-color: rgb(110, 110, 110);
+	background-color: rgb(255, 109, 109);
 }
 
+.call-to-action .wrap {
+	background-color: #ff0;
+	height: 300px;
+
+}
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 

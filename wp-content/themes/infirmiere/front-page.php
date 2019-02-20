@@ -75,5 +75,16 @@ function display_front_page_1_widget() {
 
 }
 
+// * Add the page widget in the content - HTML5
+add_action( 'genesis_entry_footer', 'new_widget_function_name' );
+
+function new_widget_function_name() {
+
+	genesis_widget_area ('my-widget', array(
+        'before' => '<div class="my-widget"><div class="wrap">',
+        'after' => '</div></div>',
+	) );
+}
+
  genesis();
 
